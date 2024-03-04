@@ -932,6 +932,10 @@ video {
   width: 80%;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[150px\] {
   width: 150px;
 }
@@ -2840,6 +2844,10 @@ footer {
     width: 2.5rem;
   }
 
+  .xxs\:w-6 {
+    width: 1.5rem;
+  }
+
   .xxs\:w-\[150px\] {
     width: 150px;
   }
@@ -2902,6 +2910,10 @@ footer {
     width: 3rem;
   }
 
+  .xs\:w-7 {
+    width: 1.75rem;
+  }
+
   .xs\:w-\[390px\] {
     width: 390px;
   }
@@ -2935,6 +2947,10 @@ footer {
 
   .sm\:h-\[57px\] {
     height: 57px;
+  }
+
+  .sm\:w-10 {
+    width: 2.5rem;
   }
 
   .sm\:w-16 {
@@ -2992,6 +3008,10 @@ footer {
 
   .md\:h-\[50px\] {
     height: 50px;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
   }
 
   .md\:w-\[150px\] {
@@ -3082,6 +3102,10 @@ footer {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-10 {
+    width: 2.5rem;
   }
 
   .lg\:w-16 {
