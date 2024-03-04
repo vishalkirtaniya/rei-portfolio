@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="x-icon" href="./src/img-folder/logo.png" />
+    <link rel="shortcut icon" type="x-icon" href="./src/img-folder/logo.webp" />
     <link rel="stylesheet" href="./src/output.css" />
+    <link
+      fetchpriority="high"
+      rel="preload"
+      as="image"
+      href="./src/img-folder/hero-image.webp"
+      type="webp"
+    />
     <title>Rei Video Editor Porfolio</title>
   </head>
   <body class="m-0 p-0 bg-black">
@@ -16,8 +23,9 @@
           <div class="logo-container">
             <img
               class="xxs:h-9 md:h-14 rounded-sm overflow-hidden"
-              src="./src/img-folder/logo.png"
+              src="./src/img-folder/logo.webp"
               alt="logo"
+              loading="lazy"
             />
           </div>
           <div
@@ -64,7 +72,7 @@
             <img
               class="object-cover h-[400px] w-full"
               src="./src/img-folder/hero-image.webp"
-              alt=""
+              alt="hero image"
             />
           </div>
           <div
@@ -387,8 +395,9 @@
               >
                 <img
                   class="w-[300px] h-[300px]"
-                  src="./src/img-folder/71a5ac3f-dd8d-4be7-ad7e-34e34acca50a-transformed.jpeg"
+                  src="./src/img-folder/hero-image2.webp"
                   alt=""
+                  loading="lazy"
                 />
               </div>
               <div
