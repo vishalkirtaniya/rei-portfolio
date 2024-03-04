@@ -160,7 +160,7 @@
               </div>
             </div>
             <button
-              onclick="playMusic()"
+              id="changeLogoBtn"
               class="animate-me services-card flex xxs:h-[90px] sm:h-[100px] xxs:w-[320px] xs:w-[390px] sm:w-[600px] md:w-[370px] lg:w-[490px] xl:w-[400px] 2xl:w-[500px] roundeded-xl shadow-lightblack shadow-sm border-[1px] border-bordercolor rounded-md bg-depth hover:scale-105 transition duration-150 ease-in-out"
             >
               <div
@@ -170,7 +170,8 @@
                   class="small-box xxs:h-10 xs:h-12 sm:h-16 md:h-[50px] lg:h-16 xxs:w-10 xs:w-12 sm:w-16 md:w-[50px] lg:w-16 flex justify-center items-center bg-white rounded-lg"
                 >
                   <img
-                    class="xxs:h-6 xs:h-7 sm:h-10 md:h-8 lg:h-10 xxs:w-6 xs:w-7 sm:w-10 md:w-8 lg:w-10"
+                    id="logo-image"
+                    class="xxs:h-6 xs:h-7 sm:h-10 md:h-8 lg:h-10 xxs:w-6 xs:w-7 sm:w-10 md:w-8 lg:w-10 transition duration-500 ease-in-out transform"
                     src="./src/img-folder/icons-folder/music-note.svg"
                     alt="sound design"
                   />
@@ -546,15 +547,9 @@
         </h3>
       </footer>
     </div>
-
-    <script>
-      function playMusic() {
-        const audio = document.getElementById("my-audio");
-        audio.play();
-      }
-    </script>
     <script src="https://web3forms.com/client/script.js/" async defer></script>
-    <script src="./src/nav-button.js"></script>
-    <script src="./src/transition-navbar.js"></script>
+    <script src="./src/js/animation-btn.js"></script>
+    <script src="./src/js/nav-button.js"></script>
+    <script src="./src/js/transition-navbar.js"></script>
   </body>
 </html>
