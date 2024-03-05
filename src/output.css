@@ -2916,6 +2916,10 @@ footer {
     width: 100%;
   }
 
+  .xxs\:w-9 {
+    width: 2.25rem;
+  }
+
   .xxs\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -3084,6 +3088,10 @@ footer {
 
   .md\:w-\[50px\] {
     width: 50px;
+  }
+
+  .md\:w-14 {
+    width: 3.5rem;
   }
 
   .md\:grid-cols-2 {
