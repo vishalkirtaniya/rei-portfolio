@@ -677,12 +677,36 @@ video {
   top: 5rem;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.right-\[30px\] {
+  right: 30px;
+}
+
+.top-\[30px\] {
+  top: 30px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .float-start {
@@ -924,6 +948,14 @@ video {
   height: 100%;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-1\/5 {
   width: 20%;
 }
@@ -958,6 +990,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-shrink {
@@ -1984,6 +2024,11 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-grey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(165 174 175 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2002,6 +2047,10 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -2680,17 +2729,29 @@ html {
   /* Move the body section to the right */
 }
 
-/* music player section */
+/* player spining when playing */
 
-#spotifyPlayer {
+#vinyl {
   position: fixed;
-  bottom: -100%;
-  /* Initially off-screen */
-  right: 0;
-  width: 300px;
-  height: 80px;
-  background-color: #1db954;
-  transition: bottom 0.3s ease;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition-duration: 300ms;
+  animation: spin 2s linear infinite;
+  display: none;
+  /* Hide initially */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Hero Section */
