@@ -45,6 +45,15 @@ html {
   }
 }
 
+/* color grading inverting when clicked */
+#colorToggleButton {
+  transition: filter 0.5s ease;
+}
+
+#colorToggleButton.inverted {
+  filter: invert(100%);
+}
+
 /* Hero Section */
 
 /* My Services */

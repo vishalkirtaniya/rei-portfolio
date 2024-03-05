@@ -673,20 +673,12 @@ video {
   left: 0px;
 }
 
-.top-20 {
-  top: 5rem;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
 .right-\[30px\] {
   right: 30px;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .top-\[30px\] {
@@ -928,6 +920,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -948,16 +944,12 @@ video {
   height: 100%;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .w-1\/5 {
   width: 20%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-4\/5 {
@@ -990,14 +982,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .flex-shrink {
@@ -2024,11 +2008,6 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
-.bg-grey {
-  --tw-bg-opacity: 1;
-  background-color: rgb(165 174 175 / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2752,6 +2731,16 @@ html {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* color grading inverting when clicked */
+
+#colorToggleButton {
+  transition: filter 0.5s ease;
+}
+
+#colorToggleButton.inverted {
+  filter: invert(100%);
 }
 
 /* Hero Section */
