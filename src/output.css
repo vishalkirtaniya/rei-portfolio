@@ -2904,6 +2904,10 @@ footer {
     width: 1.5rem;
   }
 
+  .xxs\:w-9 {
+    width: 2.25rem;
+  }
+
   .xxs\:w-\[150px\] {
     width: 150px;
   }
@@ -2914,10 +2918,6 @@ footer {
 
   .xxs\:w-full {
     width: 100%;
-  }
-
-  .xxs\:w-9 {
-    width: 2.25rem;
   }
 
   .xxs\:grid-cols-1 {
@@ -3070,6 +3070,10 @@ footer {
     height: 50px;
   }
 
+  .md\:w-14 {
+    width: 3.5rem;
+  }
+
   .md\:w-8 {
     width: 2rem;
   }
@@ -3088,10 +3092,6 @@ footer {
 
   .md\:w-\[50px\] {
     width: 50px;
-  }
-
-  .md\:w-14 {
-    width: 3.5rem;
   }
 
   .md\:grid-cols-2 {
