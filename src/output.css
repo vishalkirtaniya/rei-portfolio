@@ -792,14 +792,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-4 {
@@ -2169,10 +2169,6 @@ video {
   padding-left: 0.75rem;
 }
 
-.pl-\[50px\] {
-  padding-left: 50px;
-}
-
 .pt-20 {
   padding-top: 5rem;
 }
@@ -3152,12 +3148,24 @@ footer {
     width: 670px;
   }
 
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-2xl {
@@ -3222,24 +3230,12 @@ footer {
     height: 263px;
   }
 
-  .lg\:h-\[400px\] {
-    height: 400px;
+  .lg\:h-\[345px\] {
+    height: 345px;
   }
 
   .lg\:h-\[57px\] {
     height: 57px;
-  }
-
-  .lg\:h-\[350px\] {
-    height: 350px;
-  }
-
-  .lg\:h-\[340px\] {
-    height: 340px;
-  }
-
-  .lg\:h-\[345px\] {
-    height: 345px;
   }
 
   .lg\:w-1\/2 {
@@ -3303,20 +3299,16 @@ footer {
     row-gap: 20px;
   }
 
-  .lg\:pl-\[50px\] {
-    padding-left: 50px;
+  .lg\:pl-\[27px\] {
+    padding-left: 27px;
   }
 
   .lg\:pt-20 {
     padding-top: 5rem;
   }
 
-  .lg\:pl-\[30px\] {
-    padding-left: 30px;
-  }
-
-  .lg\:pl-\[27px\] {
-    padding-left: 27px;
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
@@ -3358,16 +3350,16 @@ footer {
     display: none;
   }
 
-  .xl\:h-\[57px\] {
-    height: 57px;
-  }
-
   .xl\:h-\[320px\] {
     height: 320px;
   }
 
   .xl\:h-\[400px\] {
     height: 400px;
+  }
+
+  .xl\:h-\[57px\] {
+    height: 57px;
   }
 
   .xl\:w-1\/2 {
@@ -3382,12 +3374,12 @@ footer {
     width: 400px;
   }
 
-  .xl\:w-\[600px\] {
-    width: 600px;
-  }
-
   .xl\:w-\[550px\] {
     width: 550px;
+  }
+
+  .xl\:w-\[600px\] {
+    width: 600px;
   }
 
   .xl\:grid-cols-3 {
@@ -3416,13 +3408,13 @@ footer {
     line-height: 2.25rem;
   }
 
-  .xl\:text-xl {
-    font-size: 1.25rem;
+  .xl\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .xl\:text-lg {
-    font-size: 1.125rem;
+  .xl\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -3430,22 +3422,6 @@ footer {
 @media (min-width: 1536px) {
   .\32xl\:h-\[396px\] {
     height: 396px;
-  }
-
-  .\32xl\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .\32xl\:h-\[450px\] {
-    height: 450px;
-  }
-
-  .\32xl\:h-\[470px\] {
-    height: 470px;
-  }
-
-  .\32xl\:h-\[480px\] {
-    height: 480px;
   }
 
   .\32xl\:h-\[475px\] {
@@ -3456,12 +3432,12 @@ footer {
     width: 500px;
   }
 
-  .\32xl\:w-\[725px\] {
-    width: 725px;
-  }
-
   .\32xl\:w-\[680px\] {
     width: 680px;
+  }
+
+  .\32xl\:w-\[725px\] {
+    width: 725px;
   }
 }
 
